@@ -1,4 +1,4 @@
-from . import db
+from ..main import db
 
 class Coffee(db.model) : 
     __tablename__ = "Coffees"
