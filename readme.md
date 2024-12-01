@@ -1,7 +1,7 @@
 # Installation
 1. Install python
 2. Create a virtual environment with -> python -m venv <environmentname>
-3. Activate the virtual environment with .<environmentname>\Scripts\activate
+3. Activate the virtual environment with .<environmentname>\Scripts\activate -> .venv\Scripts\activate
 4. Enter pip install flask
 
 # Simple server 
