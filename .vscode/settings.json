@@ -1,0 +1,16 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "belajar flask",
+            "group": "flask",
+            "database": "belajarflask",
+            "password": "111",
+            "username": "postgres",
+            "connectionTimeout": 30
+        }
+    ]
+}
