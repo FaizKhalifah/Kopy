@@ -1,7 +1,11 @@
 from app.models.Coffee import Coffee, db
 
 def get_coffee_by_id(coffee_id):
-    return Coffee.query.get(coffee_id)
+    coffee = Coffee.query.get(coffee_id)
+    print(coffee)
+    if coffee == None:
+        return None
+    return coffee.to_dict()
 
 def get_all_coffees():
     return [coffee.to_dict() for coffee in Coffee.query.all()]
